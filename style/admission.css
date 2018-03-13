@@ -1,0 +1,39 @@
+.personal-data{
+	/*background: #ce86c2;*/
+	overflow: hidden;
+	padding: 30px;
+}
+
+	.personal-data h3{
+		color: #000000;
+		font-size: 12px;
+		text-align: left;
+	}
+
+.menu-button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    font-weight: bold;      
+}
+
+.main-admission{
+	/*background: #ce86c2;*/
+	overflow: hidden;
+	padding: 10px;
+	border-style: solid;
+}
+
+	.main-admission h1{
+		color: #000000;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.main-admission h2{
+		color: #000000;
+		font-size: 12px;
+		text-align: left;
+	}

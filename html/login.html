@@ -1,0 +1,27 @@
+<div class="login-box">
+	<center>
+		<h1>Iniciar sessão</h1>
+	</center>
+
+	<div class="main-container">
+		<div class="input-container">
+			<span>Usuário:</span>
+			<br><span>Senha:</span>
+		</div>
+
+		<div class="input-container">
+			<input ng-model="sessionUser.username" type="text">
+			<br> <input ng-model="sessionUser.password" type="password">
+		</div>
+	</div>
+
+	<center>
+		<span ng-show="invalidLogin" class="invalid-login-message">Usuário e/ou senha inválidos!</span>
+		<!-- the button works to login but for some godforsaken reason this message isn't showing up at all -->
+	</center>
+	<br>
+
+	<center>
+		<button ng-click="tryLogin()" class="standard-button">Entrar</button>
+	</center>
+</div>

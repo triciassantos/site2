@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="nutric">
+<head>
+	<meta charset="UTF-8">
+	<title>Nutric</title>
+
+	<script src="lib/angular.min.js"></script>
+	<script src="lib/ngRoute.js"></script>
+
+	<script src="app.js"></script>
+	<script src="config.js"></script>
+
+	<script src="controller/loginController.js"></script>
+	<script src="controller/404Controller.js"></script>
+	<script src="controller/homeController.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+	<link rel="stylesheet" type="text/css" href="style/admission.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="header-wrapper">
+		<div id="header">
+			<h1>Nutric</h1>
+		</div>
+
+		<div id="menu">
+			<span>menu vai aqui</span>
+		</div>
+	</div>
+
+	<div ng-view id="content-wrapper">
+	</div>
+
+	<div id="footer-wrapper">
+		<div id="footer">
+			<span>footer vai aqui</span>
+		</div>
+	</div>
+
+</body>

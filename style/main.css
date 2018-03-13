@@ -1,0 +1,90 @@
+@font-face{
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+
+	font-family: 'OpenSans-Italic';
+	src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+html, body{
+	height: 100%;
+	background: #1E1B1A;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'OpenSans-Light', sans-serif;
+	letter-spacing: 0.03em;
+}
+
+
+#header{
+	background: #333333;
+	text-align: center;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+	#header h1{
+		color: #ffffff;
+		text-transform: uppercase;
+		font-size: 4em;
+		letter-spacing: 0.10em;
+	}
+
+#menu{
+	background: #1980b7;
+	text-align: center;
+	overflow: hidden;
+	padding: 2em;
+}
+
+#content-wrapper{
+	padding: 50px;
+	background: #ffffff;
+}
+
+.sidebar{
+	float: left;
+	width: 345px;
+	/*background: #85659b;*/
+	overflow: hidden;
+	padding: 30px;
+}
+
+	.sidebar h1{
+		color: #1980b7;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+.main-content{
+	/*background: #ce86c2;*/
+	overflow: hidden;
+	padding: 30px;
+}
+
+	.main-content h1{
+		color: #1980b7;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+#footer{
+	overflow: hidden;
+	padding: 5em 0em;
+	background: #333333;
+	text-align: center;
+	color: #ffffff;
+	/*border-bottom: 3px solid #1980b7;*/
+}
+
+.standard-button{
+	background: #1980b7;
+	text-align: center;
+	color: #ffffff;
+	border: none;
+	padding: 0.6em;
+}

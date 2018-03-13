@@ -1,0 +1,1 @@
+var nutric = angular.module("nutric",['ngRoute']);

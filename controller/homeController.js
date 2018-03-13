@@ -1,0 +1,4 @@
+nutric.controller("homeController", function(){
+
+
+});
